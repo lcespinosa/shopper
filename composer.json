@@ -85,9 +85,9 @@
     }
   },
   "replace": {
-    "kositas-shopper-core": "self.version",
-    "kositas-shopper-framework": "self.version",
-    "kositas-shopper-sidebar": "self.version"
+    "lcespinosa/kositas-shopper-core": "self.version",
+    "lcespinosa/kositas-shopper-framework": "self.version",
+    "lcespinosa/kositas-shopper-sidebar": "self.version"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
