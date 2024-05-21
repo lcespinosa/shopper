@@ -3,7 +3,7 @@ name: monorepo-split
 on:
   push:
     branches:
-      - 'kositas.*'
+      - kositas
 
 jobs:
   split-monorepo:
