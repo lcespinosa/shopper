@@ -3,9 +3,7 @@ name: monorepo-split
 on:
   push:
     branches:
-      - main
-      - '2.*'
-    tags: '*'
+      - 'kositas.*'
 
 jobs:
   split-monorepo:
@@ -27,9 +25,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
           package_directory: 'packages/${{ matrix.package }}'
-          repository_organization: 'shopperlabs'
+          repository_organization: 'lcespinosa'
           repository_name: '${{ matrix.package }}'
-          branch: 2.x
+          branch: kositas
           tag: ${{ steps.previous-tag.outputs.tag }}
-          user_name: 'Arthur Monney'
-          user_email: 'monneylobe@gmail.com'
+          user_name: 'Liuver C. Espinosa'
+          user_email: 'liuver.carrera.espinosa@gmail.com'
