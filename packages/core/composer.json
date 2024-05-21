@@ -1,5 +1,5 @@
 {
-  "name": "shopper/core",
+  "name": "lcespinosa/kositas-shopper-core",
   "description": "Laravel Shopper e-commerce core functionality",
   "license": "MIT",
   "require": {
